@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { LineChart, Line, XAxis, YAxis, BarChart, Bar, Tooltip, CartesianGrid } from "recharts";
 
-const API = "https://your-backend-url.onrender.com";
+const API = "https://viteee-prep-app.onrender.com";
 
 export default function AdminPanel() {
   const [questions, setQuestions] = useState([]);
